@@ -23,21 +23,20 @@ body {
 } */
 
 h1 {
-    font-size:4rem;
+    font-size: 4rem;
 }
 
-.foto-hero{
-    height:80vh;
+.foto-hero {
+    height: 80vh;
     width: auto;
 }
 
 #cajas {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr); */
     gap: 10px;
     margin-top: 50px;
     margin: 80px 80px;
-    
 
 }
 
@@ -103,8 +102,37 @@ h1 {
     padding: 60px;
 }
 
-#trabajo div{
+#trabajo div {
     padding: 30px;
     border: 1px solid black;
-    border-radius: 10px;       
+    border-radius: 10px;
+}
+
+
+.container-card {
+    margin: 3rem;
+}
+
+.card-title-projects {
+    text-align: center;
+}
+
+.cards-grid {
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+
+
+}
+
+.card img {
+    height: 15rem;
+    width: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    object-fit: cover;
 }
