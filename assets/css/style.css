@@ -36,14 +36,16 @@ h1 {
     grid-template-columns: repeat(4, 1fr); */
     gap: 10px;
     margin-top: 50px;
-    margin: 80px 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
 
 }
 
 .caja-1 {
-    height: 800px;
+    height: 100vh;
     border-radius: 15px;
-    background-color: red;
+    background-color: rgb(41, 207, 207);
     transition: all 0.3s ease-in-out;
 }
 
@@ -54,9 +56,9 @@ h1 {
 
 
 .caja-2 {
-    height: 800px;
+    height: 100vh;
     border-radius: 15px;
-    background-color: green;
+    background-color: rgb(95, 137, 228);
     transition: all 0.3s ease-in-out;
 }
 
@@ -66,9 +68,9 @@ h1 {
 }
 
 .caja-3 {
-    height: 800px;
+    height: 100vh;
     border-radius: 15px;
-    background-color: blue;
+    background-color: rgb(85, 85, 207);
     transition: all 0.3s ease-in-out;
 }
 
@@ -78,9 +80,9 @@ h1 {
 }
 
 .caja-4 {
-    height: 800px;
+    height: 100vh;
     border-radius: 15px;
-    background-color: yellow;
+    background-color: rgb(65, 74, 155);
     transition: all 0.3s ease-in-out;
 }
 
@@ -88,6 +90,48 @@ h1 {
     transform: translateY(-70px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
+.container-card {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.card-title-projects {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: center;
+} */
+
+.card {
+    margin: 0px;
+}
+
+.card img {
+    height: 15rem;
+    width: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 #trabajo {
@@ -106,33 +150,4 @@ h1 {
     padding: 30px;
     border: 1px solid black;
     border-radius: 10px;
-}
-
-
-.container-card {
-    margin: 3rem;
-}
-
-.card-title-projects {
-    text-align: center;
-}
-
-.cards-grid {
-    /* display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem; */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 10px;
-
-
-}
-
-.card img {
-    height: 15rem;
-    width: auto;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    object-fit: cover;
 }
